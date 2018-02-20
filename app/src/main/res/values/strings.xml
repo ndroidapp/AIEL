@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AIEL</string>
+    <string name="advanced_writing_skills">ADVANCED\nWRITING\nSKILLS</string>
+    <string name="reading_section">READING\nSECTION</string>
+    <string name="literature">LITERATURE</string>
+    <string name="exam_tips">EXAM\nTIPS</string>
+</resources>

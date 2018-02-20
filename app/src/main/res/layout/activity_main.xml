@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:padding="4dp"
+    tools:context="com.example.noor.aiel.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvLiterature"
+        style="@style/margin"
+        android:background="@drawable/bg_tv_literature"
+        android:text="@string/literature"
+        app:layout_constraintBottom_toTopOf="@+id/tvAWSkills"
+        app:layout_constraintEnd_toStartOf="@+id/tvReadingSection"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvReadingSection"
+        style="@style/margin"
+        android:background="@drawable/bg_tv_rs"
+        android:text="@string/reading_section"
+        app:layout_constraintBottom_toTopOf="@+id/tvExamTips"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvLiterature"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAWSkills"
+        style="@style/margin"
+        android:background="@drawable/bg_tv_aws"
+        android:text="@string/advanced_writing_skills"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvExamTips"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLiterature" />
+
+    <TextView
+        android:id="@+id/tvExamTips"
+        style="@style/margin"
+        android:background="@drawable/bg_tv_et"
+        android:text="@string/exam_tips"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvAWSkills"
+        app:layout_constraintTop_toBottomOf="@+id/tvReadingSection" />
+</android.support.constraint.ConstraintLayout>
